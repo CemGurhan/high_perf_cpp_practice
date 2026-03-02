@@ -1,0 +1,29 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build chap2_practice",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++20",
+                "${workspaceFolder}/src/*.cpp",
+                "-I", "${workspaceFolder}/include",
+                "-o", "${workspaceFolder}/build/chap2_practice"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compiles all src files with C++20 and includes headers."
+        }
+    ],
+    "version": "2.0.0"
+}
