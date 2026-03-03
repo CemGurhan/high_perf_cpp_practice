@@ -1,0 +1,3 @@
+/Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles/chap2_practice.dir
+/Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles/edit_cache.dir
+/Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles/rebuild_cache.dir

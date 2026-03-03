@@ -2,17 +2,25 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Build chap2_practice",
+            "name": "Debug CMake Target",
             "type": "cppdbg",
             "request": "launch",
+            // This path must match your project name in CMakeLists.txt
             "program": "${workspaceFolder}/build/chap2_practice",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
-            "MIMode": "lldb", // Use "gdb" if you are on Windows/Linux
-            "preLaunchTask": "Build chap2_practice" // MUST match the 'label' in tasks.json
+            "MIMode": "lldb", // Use lldb for Mac/Clang, gdb for Linux/GCC
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "CMake: build" 
         }
     ]
 }
