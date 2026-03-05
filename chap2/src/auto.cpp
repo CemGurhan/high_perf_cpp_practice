@@ -2,7 +2,6 @@
 #include "utils/auto_helpers.hpp"
 
 using std::cout;
-using std::endl;
 
 // auto_ref_strip demonstrates how auto can strip 
 // references when deducing types.
