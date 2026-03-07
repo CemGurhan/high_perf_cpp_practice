@@ -46,12 +46,18 @@ class Buffer {
         // Move constructor, moves take rvalue references as rvalue references are temporary objects 
         // that are about to be destroyed, so we can "steal" their resources without worrying about leaving 
         // them in an invalid state. 
+
+        // move constructor is called when you construct a new object from an rvalue:
+        // auto b = std::move(a); <- b is constructed here
         Buffer(Buffer&& other) noexcept : size_{other.size_}, ptr_{other.ptr_} {
             other.ptr_ = nullptr;
             other.size_ = 0;
         }
 
-        // Move assignment
+        // Move assignment. Called when youre moving data into an already existing object:
+        // Object b = Object{"hi"};
+        // b = std::move(a); <- a is move assigned here into b
+        // we msut return a ref here (like with copy construct) to allow chasing assignments e.g a = b = c;
         Buffer& operator=(Buffer&& other) noexcept  {
             if (this != &other) {     // 1. Self-assignment check
                 delete[] ptr_;        // 2. Clean up our old junk
