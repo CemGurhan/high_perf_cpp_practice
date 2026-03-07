@@ -81,12 +81,12 @@ clean: CMakeFiles/chap2_practice.dir/clean
 CMakeFiles/chap2_practice.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chap2_practice.dir/build.make CMakeFiles/chap2_practice.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chap2_practice.dir/build.make CMakeFiles/chap2_practice.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles --progress-num=1,2,3,4 "Built target chap2_practice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target chap2_practice"
 .PHONY : CMakeFiles/chap2_practice.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/chap2_practice.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/chap2_practice.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles 0
 .PHONY : CMakeFiles/chap2_practice.dir/rule
