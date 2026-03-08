@@ -1,5 +1,6 @@
 #include <vector>
 #include <iostream>
+#include <list>
 
 using std::cout;
 
@@ -19,3 +20,51 @@ void lambda_capture_copy_vs_ref() {
     cout << "Count for copied: " << count1 << "\n"; // prints 3
     cout << "Count for ref: " << count2 << "\n"; // prints 2
 }
+
+void initialise_lambda_members() {
+    auto init_vec = [nums = std::list<int>{4,2}]() { // init a linked list for this lambda class
+        for (auto i : nums)
+            cout << i << "\n"; // prints 4 and 2
+    };
+
+
+    init_vec();
+}
+
+void mutable_lambdas() {
+     auto mutable_members = [count=1]() mutable { // can only mutate members if mutable
+        cout << count << "\n"; // prints 1
+        count++;
+        cout << count << "\n"; // prints 2
+     };
+
+     mutable_members();
+
+     auto v = 8;
+
+     auto mutable_refs = [&v]() { // captured references are mutable by default, so we can modify v without mutable
+        cout << v << "\n"; // prints 8
+        v++;
+        cout << v << "\n"; // prints 9
+     };
+     mutable_refs();
+
+     auto mutable_copies = [v]() mutable { // captured by value, so we need mutable to modify the copy of v
+        cout << v << "\n"; // prints 8
+        v++;
+        cout << v << "\n"; // prints 9
+     };
+
+    mutable_copies();
+ }
+
+
+ void capture_wildcards() {
+    auto a = 0;
+    auto b = 1;
+    auto c = 2;
+
+    auto capture_all_by_copy = [=]() { cout << a << b << c; }; // all variables ( a b and c) captured are copies
+    auto capture_all_by_ref = [&]() { cout << a << b << c; }; // all variables captured are references
+    auto mix_capture = [=, &c]() { cout << a << b << c; }; // capture a and b by copy, and c by reference
+ }

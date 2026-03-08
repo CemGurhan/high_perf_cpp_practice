@@ -6,6 +6,7 @@
 #include "forwarding_auto.hpp"
 #include <thread>
 #include <lambdas_capture.hpp>
+#include "call_operator.hpp"
 
 int main() {
     // auto_ref_strip();
@@ -14,8 +15,8 @@ int main() {
 
     // vector_lifetime_extension();
 
-
-    lambda_capture_copy_vs_ref();
+    // lambda_capture_copy_vs_ref();
     
+    operator_example();
 }
 

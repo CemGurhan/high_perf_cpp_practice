@@ -975,4 +975,5 @@ CMakeFiles/chap2_practice.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__stop_token/stop_token.h \
-  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/include/lambdas_capture.hpp
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/include/lambdas_capture.hpp \
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/include/call_operator.hpp
