@@ -7,7 +7,8 @@ class Class {
     public:
         Class() {}
         // copied in as the param is a const lvalue reference, we can't move into this one
-        // as the original data is const, so we must copy.
+        // as the original data is const, so we must copy. (same would happen if it were a non-const lvalue reference, 
+        // as we can't move from an lvalue ref either, because lvalue references are expected to live on).
         auto set_title(const std::string& s) {
             title_ = s;
         }

@@ -5,8 +5,7 @@
 #include "const_auto.hpp"
 #include "forwarding_auto.hpp"
 #include <thread>
-
-static std::thread* ts;
+#include <lambdas_capture.hpp>
 
 int main() {
     // auto_ref_strip();
@@ -15,6 +14,8 @@ int main() {
 
     // vector_lifetime_extension();
 
-    forward_vector();
+
+    lambda_capture_copy_vs_ref();
+    
 }
 

@@ -14,6 +14,11 @@ class Buffer {
         // Copy assignment
         // We need 'operator=' because the default '=' would only copy the pointer address (Shallow Copy).
         // If we did that, two buffers would point to the same memory, leading to a crash (Double Free).
+        //
+        // We use const lvalue reference here because we want to copy. If we took an rvalue reference, 
+        // we'd be indicating to the user that the parameter is temporary, thus restricting copy constructors to only rvalues (temps).
+        // With an lvalue reference, we're saying this parameter's resources still matter, they arent going to be discared after like
+        // a temp rvalue, they will just be copied.
         Buffer& operator=(const Buffer& other) {
             // Check for 'self-assignment' (e.g., b1 = b1). 
             // We check addresses to ensure we don't delete our own data before trying to copy it.
@@ -46,7 +51,7 @@ class Buffer {
         // Move constructor, moves take rvalue references as rvalue references are temporary objects 
         // that are about to be destroyed, so we can "steal" their resources without worrying about leaving 
         // them in an invalid state. 
-
+        //
         // move constructor is called when you construct a new object from an rvalue:
         // auto b = std::move(a); <- b is constructed here
         Buffer(Buffer&& other) noexcept : size_{other.size_}, ptr_{other.ptr_} {

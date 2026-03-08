@@ -4,11 +4,6 @@
 using std::vector;
 using std::cout;
 
-void forward_vector() {
-    [[maybe_unused]] auto&& v = forward_out();
-    v[0] = 997; // forwarded again so can edit.
-}
-
 std::vector<int> forward_out() {
     // auto&& is a forwarding reference, it is used to extend
     // the lifetime of a temporary object and to perfectly forward it.
@@ -34,3 +29,10 @@ std::vector<int> forward_out() {
 
     return vConst; 
 }
+
+
+void forward_vector() {
+    [[maybe_unused]] auto&& v = forward_out();
+    v[0] = 997; // forwarded again so can edit.
+}
+
