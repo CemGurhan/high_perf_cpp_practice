@@ -201,6 +201,30 @@ src/forwarding_auto.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chap2_practice.dir/build.make CMakeFiles/chap2_practice.dir/src/forwarding_auto.cpp.s
 .PHONY : src/forwarding_auto.cpp.s
 
+src/fundamental_compound.o: src/fundamental_compound.cpp.o
+.PHONY : src/fundamental_compound.o
+
+# target to build an object file
+src/fundamental_compound.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chap2_practice.dir/build.make CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.o
+.PHONY : src/fundamental_compound.cpp.o
+
+src/fundamental_compound.i: src/fundamental_compound.cpp.i
+.PHONY : src/fundamental_compound.i
+
+# target to preprocess a source file
+src/fundamental_compound.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chap2_practice.dir/build.make CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.i
+.PHONY : src/fundamental_compound.cpp.i
+
+src/fundamental_compound.s: src/fundamental_compound.cpp.s
+.PHONY : src/fundamental_compound.s
+
+# target to generate assembly for a file
+src/fundamental_compound.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chap2_practice.dir/build.make CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.s
+.PHONY : src/fundamental_compound.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -249,6 +273,30 @@ src/pierre_playground.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chap2_practice.dir/build.make CMakeFiles/chap2_practice.dir/src/pierre_playground.cpp.s
 .PHONY : src/pierre_playground.cpp.s
 
+src/rvalue_lvalue.o: src/rvalue_lvalue.cpp.o
+.PHONY : src/rvalue_lvalue.o
+
+# target to build an object file
+src/rvalue_lvalue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chap2_practice.dir/build.make CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.o
+.PHONY : src/rvalue_lvalue.cpp.o
+
+src/rvalue_lvalue.i: src/rvalue_lvalue.cpp.i
+.PHONY : src/rvalue_lvalue.i
+
+# target to preprocess a source file
+src/rvalue_lvalue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chap2_practice.dir/build.make CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.i
+.PHONY : src/rvalue_lvalue.cpp.i
+
+src/rvalue_lvalue.s: src/rvalue_lvalue.cpp.s
+.PHONY : src/rvalue_lvalue.s
+
+# target to generate assembly for a file
+src/rvalue_lvalue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chap2_practice.dir/build.make CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.s
+.PHONY : src/rvalue_lvalue.cpp.s
+
 src/utils/auto_helpers.o: src/utils/auto_helpers.cpp.o
 .PHONY : src/utils/auto_helpers.o
 
@@ -291,12 +339,18 @@ help:
 	@echo "... src/forwarding_auto.o"
 	@echo "... src/forwarding_auto.i"
 	@echo "... src/forwarding_auto.s"
+	@echo "... src/fundamental_compound.o"
+	@echo "... src/fundamental_compound.i"
+	@echo "... src/fundamental_compound.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/pierre_playground.o"
 	@echo "... src/pierre_playground.i"
 	@echo "... src/pierre_playground.s"
+	@echo "... src/rvalue_lvalue.o"
+	@echo "... src/rvalue_lvalue.i"
+	@echo "... src/rvalue_lvalue.s"
 	@echo "... src/utils/auto_helpers.o"
 	@echo "... src/utils/auto_helpers.i"
 	@echo "... src/utils/auto_helpers.s"

@@ -111,10 +111,24 @@ CMakeFiles/chap2_practice.dir/src/forwarding_auto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chap2_practice.dir/src/forwarding_auto.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/src/forwarding_auto.cpp -o CMakeFiles/chap2_practice.dir/src/forwarding_auto.cpp.s
 
+CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.o: CMakeFiles/chap2_practice.dir/flags.make
+CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/src/fundamental_compound.cpp
+CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.o: CMakeFiles/chap2_practice.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.o -MF CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.o.d -o CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/src/fundamental_compound.cpp
+
+CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/src/fundamental_compound.cpp > CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.i
+
+CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/src/fundamental_compound.cpp -o CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.s
+
 CMakeFiles/chap2_practice.dir/src/main.cpp.o: CMakeFiles/chap2_practice.dir/flags.make
 CMakeFiles/chap2_practice.dir/src/main.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/src/main.cpp
 CMakeFiles/chap2_practice.dir/src/main.cpp.o: CMakeFiles/chap2_practice.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/chap2_practice.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/chap2_practice.dir/src/main.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chap2_practice.dir/src/main.cpp.o -MF CMakeFiles/chap2_practice.dir/src/main.cpp.o.d -o CMakeFiles/chap2_practice.dir/src/main.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/src/main.cpp
 
 CMakeFiles/chap2_practice.dir/src/main.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/chap2_practice.dir/src/main.cpp.s: cmake_force
 CMakeFiles/chap2_practice.dir/src/pierre_playground.cpp.o: CMakeFiles/chap2_practice.dir/flags.make
 CMakeFiles/chap2_practice.dir/src/pierre_playground.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/src/pierre_playground.cpp
 CMakeFiles/chap2_practice.dir/src/pierre_playground.cpp.o: CMakeFiles/chap2_practice.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/chap2_practice.dir/src/pierre_playground.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/chap2_practice.dir/src/pierre_playground.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chap2_practice.dir/src/pierre_playground.cpp.o -MF CMakeFiles/chap2_practice.dir/src/pierre_playground.cpp.o.d -o CMakeFiles/chap2_practice.dir/src/pierre_playground.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/src/pierre_playground.cpp
 
 CMakeFiles/chap2_practice.dir/src/pierre_playground.cpp.i: cmake_force
@@ -139,10 +153,24 @@ CMakeFiles/chap2_practice.dir/src/pierre_playground.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chap2_practice.dir/src/pierre_playground.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/src/pierre_playground.cpp -o CMakeFiles/chap2_practice.dir/src/pierre_playground.cpp.s
 
+CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.o: CMakeFiles/chap2_practice.dir/flags.make
+CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/src/rvalue_lvalue.cpp
+CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.o: CMakeFiles/chap2_practice.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.o -MF CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.o.d -o CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/src/rvalue_lvalue.cpp
+
+CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/src/rvalue_lvalue.cpp > CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.i
+
+CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/src/rvalue_lvalue.cpp -o CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.s
+
 CMakeFiles/chap2_practice.dir/src/utils/auto_helpers.cpp.o: CMakeFiles/chap2_practice.dir/flags.make
 CMakeFiles/chap2_practice.dir/src/utils/auto_helpers.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/src/utils/auto_helpers.cpp
 CMakeFiles/chap2_practice.dir/src/utils/auto_helpers.cpp.o: CMakeFiles/chap2_practice.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/chap2_practice.dir/src/utils/auto_helpers.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/chap2_practice.dir/src/utils/auto_helpers.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chap2_practice.dir/src/utils/auto_helpers.cpp.o -MF CMakeFiles/chap2_practice.dir/src/utils/auto_helpers.cpp.o.d -o CMakeFiles/chap2_practice.dir/src/utils/auto_helpers.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/src/utils/auto_helpers.cpp
 
 CMakeFiles/chap2_practice.dir/src/utils/auto_helpers.cpp.i: cmake_force
@@ -158,8 +186,10 @@ chap2_practice_OBJECTS = \
 "CMakeFiles/chap2_practice.dir/src/auto.cpp.o" \
 "CMakeFiles/chap2_practice.dir/src/const_auto.cpp.o" \
 "CMakeFiles/chap2_practice.dir/src/forwarding_auto.cpp.o" \
+"CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.o" \
 "CMakeFiles/chap2_practice.dir/src/main.cpp.o" \
 "CMakeFiles/chap2_practice.dir/src/pierre_playground.cpp.o" \
+"CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.o" \
 "CMakeFiles/chap2_practice.dir/src/utils/auto_helpers.cpp.o"
 
 # External object files for target chap2_practice
@@ -168,12 +198,14 @@ chap2_practice_EXTERNAL_OBJECTS =
 chap2_practice: CMakeFiles/chap2_practice.dir/src/auto.cpp.o
 chap2_practice: CMakeFiles/chap2_practice.dir/src/const_auto.cpp.o
 chap2_practice: CMakeFiles/chap2_practice.dir/src/forwarding_auto.cpp.o
+chap2_practice: CMakeFiles/chap2_practice.dir/src/fundamental_compound.cpp.o
 chap2_practice: CMakeFiles/chap2_practice.dir/src/main.cpp.o
 chap2_practice: CMakeFiles/chap2_practice.dir/src/pierre_playground.cpp.o
+chap2_practice: CMakeFiles/chap2_practice.dir/src/rvalue_lvalue.cpp.o
 chap2_practice: CMakeFiles/chap2_practice.dir/src/utils/auto_helpers.cpp.o
 chap2_practice: CMakeFiles/chap2_practice.dir/build.make
 chap2_practice: CMakeFiles/chap2_practice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable chap2_practice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/chap2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable chap2_practice"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chap2_practice.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

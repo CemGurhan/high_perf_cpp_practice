@@ -3,6 +3,7 @@
 #include <list>
 
 using std::cout;
+using std::endl;
 
 void lambda_capture_copy_vs_ref() {
     auto x = 3;
@@ -67,4 +68,17 @@ void mutable_lambdas() {
     auto capture_all_by_copy = [=]() { cout << a << b << c; }; // all variables ( a b and c) captured are copies
     auto capture_all_by_ref = [&]() { cout << a << b << c; }; // all variables captured are references
     auto mix_capture = [=, &c]() { cout << a << b << c; }; // capture a and b by copy, and c by reference
+ }
+
+ void default_lambda_construction() {
+    // lambdas can be constructed using decltype if there are no closures.
+    // This is because the compiler can find the blueprint of the original lambda
+    // and reuse it. If the lambda has closures, the compiler wont know where to get the
+    // enclosed variables, so it cannot default construct.
+
+    auto a = [](int i) { cout << i << endl; };
+    auto b = a;
+    decltype(a) z; // z is default constructed
+
+    static_assert(std::is_same_v<decltype(z), decltype(b)>);
  }
