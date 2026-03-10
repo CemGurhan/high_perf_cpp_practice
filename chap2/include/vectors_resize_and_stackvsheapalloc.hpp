@@ -1,6 +1,9 @@
 #include <string>
 #include <algorithm>
 #include <vector>
+#include <iostream>
+
+using std::cout;
 
 // for this class, use default constructors as it's simple data (I just did this here as an example)
 class Person {
@@ -31,5 +34,32 @@ void move_vector() {
     Person p = Person{"JoeyJoJoShabadoo"};
     std::vector<Person> v = {p, Person{"Gorgonzola"}};
     v.push_back(Person{"Jek"}); // now if the vector resized the Person objects would be moved due to the noexcept on the move constructor
+
+    v.emplace_back(Person{"howdy"}); // this allows us to create an object in place at the back of the vector
+
     delete pPtr;
+}
+
+void erase_if() {
+    std::vector<int> v = {1,2,-1,0,9,-10};
+
+    std::erase(v, 0);
+
+    for (auto v : v) {
+        cout << v << " "; // 1 2 -1 9 -10
+    }
+
+    std::erase_if(v, [](auto x) { return x < 0; });
+
+    cout << "\n";
+    for (auto v : v) {
+        cout << v << " "; // 1 2 9
+    }
+
+    v.erase(std::remove(v.begin(), v.end(), 9));
+
+    cout << "\n";
+    for (auto v : v) {
+        cout << v << " "; // 1 2
+    }
 }

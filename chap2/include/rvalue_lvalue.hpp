@@ -40,8 +40,8 @@ std::string_view get_view() {
     return "OK"; // Zero allocation. Zero copying.
 }
 
-std::string_view get_view_bad() {
-    std::string secret = "Temporary Data";
-    return std::string_view(secret); // DANGER!
-} 
+// std::string_view get_view_bad() {
+//     std::string secret = "Temporary Data";
+//     return std::string_view(secret); // DANGER!
+// } 
 // 'secret' dies here. The view now points to deleted memory.

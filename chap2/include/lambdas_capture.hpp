@@ -65,9 +65,9 @@ void mutable_lambdas() {
     auto b = 1;
     auto c = 2;
 
-    auto capture_all_by_copy = [=]() { cout << a << b << c; }; // all variables ( a b and c) captured are copies
-    auto capture_all_by_ref = [&]() { cout << a << b << c; }; // all variables captured are references
-    auto mix_capture = [=, &c]() { cout << a << b << c; }; // capture a and b by copy, and c by reference
+    [[maybe_unused]] auto capture_all_by_copy = [=]() { cout << a << b << c; }; // all variables ( a b and c) captured are copies
+    [[maybe_unused]] auto capture_all_by_ref = [&]() { cout << a << b << c; }; // all variables captured are references
+    [[maybe_unused]] auto mix_capture = [=, &c]() { cout << a << b << c; }; // capture a and b by copy, and c by reference
  }
 
  void default_lambda_construction() {
