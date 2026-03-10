@@ -4,7 +4,7 @@ class DataProvider {
     std::vector<int> large_data;
 
     public:
-        std::vector<int> get_data() && {
+        std::vector<int> get_data() && { // only rvalues can call this method
             return large_data;
         }
 

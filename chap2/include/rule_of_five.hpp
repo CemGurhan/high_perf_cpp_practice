@@ -22,7 +22,7 @@ class Buffer {
         Buffer& operator=(const Buffer& other) {
             // Check for 'self-assignment' (e.g., b1 = b1). 
             // We check addresses to ensure we don't delete our own data before trying to copy it.
-            if (this != &other) { 
+            if (this != &other) { // this is a pointer to the object, so to compare other must also be a ptr (hence the prepended &)
                 // We must manually release our current memory to avoid a "Memory Leak."
                 delete[] ptr_; // we must call delete[] because we used new[] to allocate the memory.
 
