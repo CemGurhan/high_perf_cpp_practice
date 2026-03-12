@@ -13,8 +13,13 @@ file(GLOB_RECURSE SOURCES "src/*.cpp")
 # 2. Tell CMake where the headers are
 include_directories(include)
 
+find_package(Boost REQUIRED PATHS /opt/homebrew/opt/boost)
+include_directories(${Boost_INCLUDE_DIRS})
+
 # 3. Create the executable
 add_executable(${PROJECT_NAME} ${SOURCES})
+
+target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES})
 
 # 4. Enable useful compiler warnings 
 if(MSVC)

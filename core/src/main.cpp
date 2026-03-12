@@ -8,6 +8,7 @@
 #include <chap2/lambdas_capture.hpp>
 #include "chap2/call_operator.hpp"
 #include "chap4/vectors_resize_and_stackvsheapalloc.hpp"
+#include "chap4/basic_string.hpp"
 
 int main() {
     // auto_ref_strip();
@@ -18,8 +19,10 @@ int main() {
 
     // lambda_capture_copy_vs_ref();
     
-    operator_example();
+    // operator_example();
 
-    erase_if();
+    // erase_if();
+
+    basic_string();
 }
 

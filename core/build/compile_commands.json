@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/build",
+  "command": "/usr/bin/clang++  -I/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include -I/opt/homebrew/include -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/core_practice.dir/src/chap2/auto.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/auto.cpp",
+  "file": "/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/auto.cpp",
+  "output": "CMakeFiles/core_practice.dir/src/chap2/auto.cpp.o"
+},
+{
+  "directory": "/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/build",
+  "command": "/usr/bin/clang++  -I/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include -I/opt/homebrew/include -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/const_auto.cpp",
+  "file": "/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/const_auto.cpp",
+  "output": "CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.o"
+},
+{
+  "directory": "/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/build",
+  "command": "/usr/bin/clang++  -I/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include -I/opt/homebrew/include -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/forwarding_auto.cpp",
+  "file": "/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/forwarding_auto.cpp",
+  "output": "CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.o"
+},
+{
+  "directory": "/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/build",
+  "command": "/usr/bin/clang++  -I/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include -I/opt/homebrew/include -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/fundamental_compound.cpp",
+  "file": "/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/fundamental_compound.cpp",
+  "output": "CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.o"
+},
+{
+  "directory": "/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/build",
+  "command": "/usr/bin/clang++  -I/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include -I/opt/homebrew/include -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/rvalue_lvalue.cpp",
+  "file": "/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/rvalue_lvalue.cpp",
+  "output": "CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.o"
+},
+{
+  "directory": "/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/build",
+  "command": "/usr/bin/clang++  -I/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include -I/opt/homebrew/include -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/core_practice.dir/src/main.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/main.cpp",
+  "file": "/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/main.cpp",
+  "output": "CMakeFiles/core_practice.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/build",
+  "command": "/usr/bin/clang++  -I/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include -I/opt/homebrew/include -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/playground/pierre_playground.cpp",
+  "file": "/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/playground/pierre_playground.cpp",
+  "output": "CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o"
+},
+{
+  "directory": "/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/build",
+  "command": "/usr/bin/clang++  -I/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include -I/opt/homebrew/include -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/utils/auto_helpers.cpp",
+  "file": "/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/utils/auto_helpers.cpp",
+  "output": "CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o"
+}
+]
