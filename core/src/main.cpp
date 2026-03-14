@@ -9,6 +9,7 @@
 #include "chap2/call_operator.hpp"
 #include "chap4/vectors_resize_and_stackvsheapalloc.hpp"
 #include "chap4/basic_string.hpp"
+#include "chap4/priority_queues.hpp"
 
 int main() {
     // auto_ref_strip();
@@ -23,6 +24,10 @@ int main() {
 
     // erase_if();
 
-    basic_string();
+    // basic_string();
+
+    priority_queue_least_func();
+
+    priority_queue_most_func();
 }
 

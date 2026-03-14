@@ -979,4 +979,5 @@ CMakeFiles/core_practice.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/list \
   /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap2/call_operator.hpp \
   /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/vectors_resize_and_stackvsheapalloc.hpp \
-  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/basic_string.hpp
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/basic_string.hpp \
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/priority_queues.hpp

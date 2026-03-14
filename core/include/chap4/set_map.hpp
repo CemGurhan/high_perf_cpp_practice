@@ -36,6 +36,8 @@ void map_unordered() {
     using Set = std::unordered_set<person, decltype(person_hash), decltype(person_eq)>; 
 
     auto persons = Set{100, person_hash, person_eq};
+
+    auto personsNonTemplate = std::unordered_set<person, decltype(person_hash), decltype(person_eq)>{100, person_hash, person_eq};
 }
 
 struct PersonHash {
@@ -66,4 +68,16 @@ void map_unordered_struct() {
     std::unordered_map<person, int, PersonHash, PersonEquality> personsMap;
 
     personsMap[p] = 115;
+
+    personsMap.rehash(50); // re-hashes all elements to 50 buckets
+
+    auto lf = personsMap.max_load_factor();
+
+    personsMap.max_load_factor(0.8); // 0.8 elements per bucket max - higher load factor max -> more collisions (less buckets)
+
+    // reserve is "better" than rehash in a way as it lets you think in elements.
+    personsMap.reserve(100); // if max_lf = 0.75 -> reserving 100 space for elements creates 134 buckets (100/0.75)
+    personsMap.rehash(100); // creates exactly 100 buckets (might exceed max load factor of 0.75 (e.g w 100 elements load factor becomes 1))
+
+    // use reserve for most cases, use rehash if you want exact bucket control
 }

@@ -8,7 +8,7 @@ using std::cout;
 // for this class, use default constructors as it's simple data (I just did this here as an example)
 class Person {
     public:
-        Person(std::string n) : name_{n} {}
+        Person(std::string n) : name_{std::move(n)} {}
 
         Person(const Person& other) : name_{other.name_} {} // string already has a copy constructor that does deep copies - simple copy constructor
         Person& operator=(const Person& other) { // cannot use initializer list for assignment operator - name_ hasn't been made yet
