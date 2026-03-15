@@ -52,3 +52,5 @@ void call_lvalue_view() {
     auto sPtr = "im a string literal";
     take_view(sPtr); // passing in the const char* pointer is still efficient (only if the types in arguments mismatch i.e if we must convert const char* to std::string)
 }
+
+// String literals always decay to a pointer to their memory when you assign to a variable 
