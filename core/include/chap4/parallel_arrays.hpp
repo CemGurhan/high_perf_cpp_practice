@@ -35,6 +35,10 @@ int get_users_at_level(const std::vector<User>& users, int level) {
 // in these arrays would ensure amazing spatial locality. The book sites that the time for these
 // functions to complete with a million users is 0.7ms, as opposed to the 3ms the previous functions took
 // with the same sample size.
+
+// The boolean array supposedly was even faster, at 0.03 ms. This is because std::vector<bool> is actually a 
+// bit array under the hood. These are evry efficient to loop through.
+
 int get_users_playing(std::vector<bool> is_playing_users) {
     return std::count(is_playing_users.begin(), is_playing_users.end(), true);
 }
@@ -42,3 +46,8 @@ int get_users_playing(std::vector<bool> is_playing_users) {
 int get_users_at_level(std::vector<int> users_at_level, int level) {
     return std::count(users_at_level.begin(), users_at_level.end(), level);
 }
+
+// The drawbacks of this parallel arrays approach is the data is nto as structured and easy to reason with.
+// If we needed to access multiple fields via these arrays, then the cost of doing so might not be worth
+// splitting fields up into arrays in the first place. Always start simple with your classes and divide up
+// as necessary.
