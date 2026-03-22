@@ -987,4 +987,8 @@ CMakeFiles/core_practice.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/cassert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/_assert.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/_static_assert.h
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/_static_assert.h \
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/promises_futures.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/future \
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/packaged_task.hpp \
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/async.hpp

@@ -13,6 +13,9 @@
 #include "chap11/thread_join.hpp"
 #include "chap11/jthreads.hpp"
 #include "chap11/mutex.hpp"
+#include "chap11/promises_futures.hpp"
+#include "chap11/packaged_task.hpp"
+#include "chap11/async.hpp"
 
 int main() {
     // auto_ref_strip();
@@ -39,6 +42,12 @@ int main() {
 
     // run_stoppable_jthread();
 
-    racey_count();
+    // racey_count();
+
+    // run_divide_w_promise();
+
+    // run_divide_with_packaged_task();
+
+    run_divide_with_async();
 }
 

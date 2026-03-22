@@ -5553,7 +5553,11 @@ CMakeFiles/core_practice.dir/src/main.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/cassert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/_assert.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/_static_assert.h
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/_static_assert.h \
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/promises_futures.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/future \
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/packaged_task.hpp \
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/async.hpp
 
 CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/playground/pierre_playground.cpp
 
@@ -5562,6 +5566,8 @@ CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o: /Users/cemgurhan/Work
 
 
 /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/utils/auto_helpers.cpp:
+
+/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/promises_futures.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/_static_assert.h:
 
@@ -6649,6 +6655,8 @@ CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o: /Users/cemgurhan/Work
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__concepts/totally_ordered.h:
 
+/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/packaged_task.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/climits:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
@@ -6696,6 +6704,8 @@ CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o: /Users/cemgurhan/Work
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__functional/invoke.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/future:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__memory/swap_allocator.h:
 
@@ -6896,6 +6906,8 @@ CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o: /Users/cemgurhan/Work
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/void_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__iterator/prev.h:
+
+/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/async.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__bit/bit_cast.h:
 
