@@ -11,6 +11,7 @@
 #include "chap4/basic_string.hpp"
 #include "chap4/priority_queues.hpp"
 #include "chap11/thread_join.hpp"
+#include "chap11/jthreads.hpp"
 
 int main() {
     // auto_ref_strip();
@@ -31,6 +32,10 @@ int main() {
 
     // priority_queue_most_func();
 
-    run_print_thread();
+    // run_print_thread();
+
+    // run_jthread();
+
+    run_stoppable_jthread();
 }
 

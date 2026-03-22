@@ -5547,7 +5547,8 @@ CMakeFiles/core_practice.dir/src/main.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_
   /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/vectors_resize_and_stackvsheapalloc.hpp \
   /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/basic_string.hpp \
   /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/priority_queues.hpp \
-  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/thread_join.hpp
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/thread_join.hpp \
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/jthreads.hpp
 
 CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/playground/pierre_playground.cpp
 
@@ -5556,6 +5557,8 @@ CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o: /Users/cemgurhan/Work
 
 
 /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/utils/auto_helpers.cpp:
+
+/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/jthreads.hpp:
 
 /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/thread_join.hpp:
 
