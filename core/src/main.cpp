@@ -10,6 +10,7 @@
 #include "chap4/vectors_resize_and_stackvsheapalloc.hpp"
 #include "chap4/basic_string.hpp"
 #include "chap4/priority_queues.hpp"
+#include "chap11/thread_join.hpp"
 
 int main() {
     // auto_ref_strip();
@@ -26,8 +27,10 @@ int main() {
 
     // basic_string();
 
-    priority_queue_least_func();
+    // priority_queue_least_func();
 
-    priority_queue_most_func();
+    // priority_queue_most_func();
+
+    run_print_thread();
 }
 

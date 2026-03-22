@@ -980,4 +980,5 @@ CMakeFiles/core_practice.dir/src/main.cpp.o: \
   /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap2/call_operator.hpp \
   /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/vectors_resize_and_stackvsheapalloc.hpp \
   /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/basic_string.hpp \
-  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/priority_queues.hpp
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/priority_queues.hpp \
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/thread_join.hpp

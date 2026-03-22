@@ -5545,7 +5545,9 @@ CMakeFiles/core_practice.dir/src/main.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/list \
   /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap2/call_operator.hpp \
   /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/vectors_resize_and_stackvsheapalloc.hpp \
-  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/basic_string.hpp
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/basic_string.hpp \
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/priority_queues.hpp \
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/thread_join.hpp
 
 CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/playground/pierre_playground.cpp
 
@@ -5555,6 +5557,8 @@ CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o: /Users/cemgurhan/Work
 
 /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/utils/auto_helpers.cpp:
 
+/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/thread_join.hpp:
+
 /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/basic_string.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__stop_token/stop_token.h:
@@ -5562,6 +5566,8 @@ CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o: /Users/cemgurhan/Work
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__stop_token/stop_state.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h:
+
+/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/priority_queues.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__thread/jthread.h:
 
