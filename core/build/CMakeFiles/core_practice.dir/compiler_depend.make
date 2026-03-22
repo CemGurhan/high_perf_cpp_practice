@@ -5548,7 +5548,12 @@ CMakeFiles/core_practice.dir/src/main.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_
   /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/basic_string.hpp \
   /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap4/priority_queues.hpp \
   /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/thread_join.hpp \
-  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/jthreads.hpp
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/jthreads.hpp \
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/mutex.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/cassert \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/assert.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/_assert.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/_static_assert.h
 
 CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/playground/pierre_playground.cpp
 
@@ -5557,6 +5562,14 @@ CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o: /Users/cemgurhan/Work
 
 
 /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/utils/auto_helpers.cpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/_static_assert.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/_assert.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/assert.h:
+
+/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/mutex.hpp:
 
 /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/jthreads.hpp:
 
@@ -5637,6 +5650,8 @@ CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o: /Users/cemgurhan/Work
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/container_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__split_buffer:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/cassert:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/deque:
 

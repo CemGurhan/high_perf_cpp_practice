@@ -12,6 +12,7 @@
 #include "chap4/priority_queues.hpp"
 #include "chap11/thread_join.hpp"
 #include "chap11/jthreads.hpp"
+#include "chap11/mutex.hpp"
 
 int main() {
     // auto_ref_strip();
@@ -36,6 +37,8 @@ int main() {
 
     // run_jthread();
 
-    run_stoppable_jthread();
+    // run_stoppable_jthread();
+
+    racey_count();
 }
 
