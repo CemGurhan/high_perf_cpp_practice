@@ -16,6 +16,7 @@
 #include "chap11/promises_futures.hpp"
 #include "chap11/packaged_task.hpp"
 #include "chap11/async.hpp"
+#include "chap11/latches.hpp"
 
 int main() {
     // auto_ref_strip();
@@ -48,6 +49,8 @@ int main() {
 
     // run_divide_with_packaged_task();
 
-    run_divide_with_async();
+    // run_divide_with_async();
+
+    use_latches();
 }
 

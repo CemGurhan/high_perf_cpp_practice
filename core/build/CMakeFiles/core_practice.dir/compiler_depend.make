@@ -5557,7 +5557,9 @@ CMakeFiles/core_practice.dir/src/main.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_
   /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/promises_futures.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/future \
   /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/packaged_task.hpp \
-  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/async.hpp
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/async.hpp \
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/latches.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/latch
 
 CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/playground/pierre_playground.cpp
 
@@ -5566,6 +5568,8 @@ CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o: /Users/cemgurhan/Work
 
 
 /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/utils/auto_helpers.cpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/latch:
 
 /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/promises_futures.hpp:
 
@@ -6264,6 +6268,8 @@ CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o: /Users/cemgurhan/Work
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/make_projected.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/sys/syslimits.h:
+
+/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/latches.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__bit/countl.h:
 
