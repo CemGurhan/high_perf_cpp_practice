@@ -17,6 +17,7 @@
 #include "chap11/packaged_task.hpp"
 #include "chap11/async.hpp"
 #include "chap11/latches.hpp"
+#include "chap11/barriers.hpp"
 
 int main() {
     // auto_ref_strip();
@@ -51,6 +52,8 @@ int main() {
 
     // run_divide_with_async();
 
-    use_latches();
+    // use_latches();
+
+    dice_roll();
 }
 

@@ -73,113 +73,113 @@ CMakeFiles/core_practice.dir/src/chap2/auto.cpp.o: CMakeFiles/core_practice.dir/
 CMakeFiles/core_practice.dir/src/chap2/auto.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/auto.cpp
 CMakeFiles/core_practice.dir/src/chap2/auto.cpp.o: CMakeFiles/core_practice.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core_practice.dir/src/chap2/auto.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_practice.dir/src/chap2/auto.cpp.o -MF CMakeFiles/core_practice.dir/src/chap2/auto.cpp.o.d -o CMakeFiles/core_practice.dir/src/chap2/auto.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/auto.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_practice.dir/src/chap2/auto.cpp.o -MF CMakeFiles/core_practice.dir/src/chap2/auto.cpp.o.d -o CMakeFiles/core_practice.dir/src/chap2/auto.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/auto.cpp
 
 CMakeFiles/core_practice.dir/src/chap2/auto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core_practice.dir/src/chap2/auto.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/auto.cpp > CMakeFiles/core_practice.dir/src/chap2/auto.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/auto.cpp > CMakeFiles/core_practice.dir/src/chap2/auto.cpp.i
 
 CMakeFiles/core_practice.dir/src/chap2/auto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core_practice.dir/src/chap2/auto.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/auto.cpp -o CMakeFiles/core_practice.dir/src/chap2/auto.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/auto.cpp -o CMakeFiles/core_practice.dir/src/chap2/auto.cpp.s
 
 CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.o: CMakeFiles/core_practice.dir/flags.make
 CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/const_auto.cpp
 CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.o: CMakeFiles/core_practice.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.o -MF CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.o.d -o CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/const_auto.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.o -MF CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.o.d -o CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/const_auto.cpp
 
 CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/const_auto.cpp > CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/const_auto.cpp > CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.i
 
 CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/const_auto.cpp -o CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/const_auto.cpp -o CMakeFiles/core_practice.dir/src/chap2/const_auto.cpp.s
 
 CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.o: CMakeFiles/core_practice.dir/flags.make
 CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/forwarding_auto.cpp
 CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.o: CMakeFiles/core_practice.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.o -MF CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.o.d -o CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/forwarding_auto.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.o -MF CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.o.d -o CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/forwarding_auto.cpp
 
 CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/forwarding_auto.cpp > CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/forwarding_auto.cpp > CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.i
 
 CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/forwarding_auto.cpp -o CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/forwarding_auto.cpp -o CMakeFiles/core_practice.dir/src/chap2/forwarding_auto.cpp.s
 
 CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.o: CMakeFiles/core_practice.dir/flags.make
 CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/fundamental_compound.cpp
 CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.o: CMakeFiles/core_practice.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.o -MF CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.o.d -o CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/fundamental_compound.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.o -MF CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.o.d -o CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/fundamental_compound.cpp
 
 CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/fundamental_compound.cpp > CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/fundamental_compound.cpp > CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.i
 
 CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/fundamental_compound.cpp -o CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/fundamental_compound.cpp -o CMakeFiles/core_practice.dir/src/chap2/fundamental_compound.cpp.s
 
 CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.o: CMakeFiles/core_practice.dir/flags.make
 CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/rvalue_lvalue.cpp
 CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.o: CMakeFiles/core_practice.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.o -MF CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.o.d -o CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/rvalue_lvalue.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.o -MF CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.o.d -o CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/rvalue_lvalue.cpp
 
 CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/rvalue_lvalue.cpp > CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/rvalue_lvalue.cpp > CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.i
 
 CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/rvalue_lvalue.cpp -o CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/chap2/rvalue_lvalue.cpp -o CMakeFiles/core_practice.dir/src/chap2/rvalue_lvalue.cpp.s
 
 CMakeFiles/core_practice.dir/src/main.cpp.o: CMakeFiles/core_practice.dir/flags.make
 CMakeFiles/core_practice.dir/src/main.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/main.cpp
 CMakeFiles/core_practice.dir/src/main.cpp.o: CMakeFiles/core_practice.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/core_practice.dir/src/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_practice.dir/src/main.cpp.o -MF CMakeFiles/core_practice.dir/src/main.cpp.o.d -o CMakeFiles/core_practice.dir/src/main.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/main.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_practice.dir/src/main.cpp.o -MF CMakeFiles/core_practice.dir/src/main.cpp.o.d -o CMakeFiles/core_practice.dir/src/main.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/main.cpp
 
 CMakeFiles/core_practice.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core_practice.dir/src/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/main.cpp > CMakeFiles/core_practice.dir/src/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/main.cpp > CMakeFiles/core_practice.dir/src/main.cpp.i
 
 CMakeFiles/core_practice.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core_practice.dir/src/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/main.cpp -o CMakeFiles/core_practice.dir/src/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/main.cpp -o CMakeFiles/core_practice.dir/src/main.cpp.s
 
 CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o: CMakeFiles/core_practice.dir/flags.make
 CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/playground/pierre_playground.cpp
 CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o: CMakeFiles/core_practice.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o -MF CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o.d -o CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/playground/pierre_playground.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o -MF CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o.d -o CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/playground/pierre_playground.cpp
 
 CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/playground/pierre_playground.cpp > CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/playground/pierre_playground.cpp > CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.i
 
 CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/playground/pierre_playground.cpp -o CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/playground/pierre_playground.cpp -o CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.s
 
 CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o: CMakeFiles/core_practice.dir/flags.make
 CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/utils/auto_helpers.cpp
 CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o: CMakeFiles/core_practice.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o -MF CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o.d -o CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/utils/auto_helpers.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o -MF CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o.d -o CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o -c /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/utils/auto_helpers.cpp
 
 CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/utils/auto_helpers.cpp > CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/utils/auto_helpers.cpp > CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.i
 
 CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/utils/auto_helpers.cpp -o CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/utils/auto_helpers.cpp -o CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.s
 
 # Object files for target core_practice
 core_practice_OBJECTS = \
