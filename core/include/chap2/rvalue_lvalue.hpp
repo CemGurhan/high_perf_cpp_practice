@@ -14,7 +14,11 @@ class Class {
         }
 
         auto set_title(std::string&& s) {
-            title_ = std::move(s);
+            // we must do this as, even if we moved into
+            // set_title, or passed an rvalue directly, the rvalue is
+            // getting moved into s. Hence, s becomes an lvalue and its data is copied into
+            // title_ instead of being moved. The rvalue becomes an lvalue in this func's scope.
+            title_ = std::move(s); 
         }
 
         auto set_title(std::string_view sv) {
@@ -28,20 +32,8 @@ class Class {
         std::string title_;
 };
 
-auto get_ok() {
-    return std::string("OK");
-}
+void some_work_with_passes() {
+    auto c = Class{};
 
-// A string_view is just a pointer and a length. It points directly to the "OK" 
-// sitting in the binary's read-only data segment. It is massively faster than 
-// std::string because it does 0 heap work. It does not own the string data,
-// just views.
-std::string_view get_view() {
-    return "OK"; // Zero allocation. Zero copying.
-}
 
-// std::string_view get_view_bad() {
-//     std::string secret = "Temporary Data";
-//     return std::string_view(secret); // DANGER!
-// } 
-// 'secret' dies here. The view now points to deleted memory.
+}

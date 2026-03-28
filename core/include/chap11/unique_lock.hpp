@@ -24,4 +24,11 @@ void scoped_lock(Account& from, Account& to, int amount) {
     // safely transfer amount with no deadlock.
     from.balance_ -= amount;
     to.balance_ += amount;
- }
+}
+
+void unique_lock_immediate() {
+    auto m = std::mutex{};
+    auto l = std::unique_lock{m};
+
+    // l will get unlocked when out of scope
+}
