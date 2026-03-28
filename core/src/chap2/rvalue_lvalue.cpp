@@ -1,5 +1,17 @@
 #include "chap2/rvalue_lvalue.hpp"
 
+auto get_ok() {
+    return std::string("OK");
+}
+
+// A string_view is just a pointer and a length. It points directly to the "OK" 
+// sitting in the binary's read-only data segment. It is massively faster than 
+// std::string because it does 0 heap work. It does not own the string data,
+// just views.
+std::string_view get_view() {
+    return "OK"; // Zero allocation. Zero copying.
+}
+
 // rvalues are created by std::move and function returns.
 // They are temporary objects that are about to be destroyed, 
 // so we can "steal" their resources without worrying about leaving them in an invalid state.

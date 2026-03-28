@@ -32,8 +32,3 @@ class Class {
         std::string title_;
 };
 
-void some_work_with_passes() {
-    auto c = Class{};
-
-
-}

@@ -18,6 +18,7 @@
 #include "chap11/async.hpp"
 #include "chap11/latches.hpp"
 #include "chap11/barriers.hpp"
+#include "chap11/atomics.hpp"
 
 int main() {
     // auto_ref_strip();
@@ -54,6 +55,8 @@ int main() {
 
     // use_latches();
 
-    dice_roll();
+    // dice_roll();
+
+    is_lock_free();
 }
 

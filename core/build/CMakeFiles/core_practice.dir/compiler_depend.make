@@ -5714,13 +5714,16 @@ CMakeFiles/core_practice.dir/src/main.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/usr/include/c++/v1/__random/seed_seq.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/usr/include/c++/v1/__random/weibull_distribution.h
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
+  /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/atomics.hpp
 
 CMakeFiles/core_practice.dir/src/playground/pierre_playground.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/playground/pierre_playground.cpp
 
 CMakeFiles/core_practice.dir/src/utils/auto_helpers.cpp.o: /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/src/utils/auto_helpers.cpp \
   /Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/utils/auto_helpers.hpp
 
+
+/Users/cemgurhan/Work/CPP/cpp_high_perf_book/core/include/chap11/atomics.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/usr/include/c++/v1/__random/student_t_distribution.h:
 
